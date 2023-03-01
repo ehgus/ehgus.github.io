@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<style>
-a:link {
-    color: white;
-    text-decoration: none;
-}
+    <head>
+    <meta charset="UTF-8">
+    <style>
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
 
-a:visited {
-    color: rgb(135, 183, 251);
-    text-decoration: none;
-}
+    a:visited {
+        color: rgb(135, 183, 251);
+        text-decoration: none;
+    }
 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
 
-a:active {
-    color: rgb(135, 183, 251);
-    text-decoration: none;
-}
-</style>
-<meta charset="UTF-8">
-<title>{{title}}</title>
-</head>
-<body style="background-color:black;color:white;" >
-<header>
-<!--<img style="height:auto;" alt="" width="260" height="260" src="https://avatars.githubusercontent.com/u/18534737?v=4">-->
-</header>
-    {{content | safe}}
-</body>
+    a:active {
+        color: rgb(135, 183, 251);
+        text-decoration: none;
+    }
+    </style>
+    <title> {{ site.title }} </title>
+    </head>
+    <body style="background-color:black;color:white;" >
+        {{content | safe}}
+    </body>
 </html>

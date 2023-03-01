@@ -1,9 +1,8 @@
 ---
-title: Welcome to Dohyeon Lee's website
 layout: home.njk
 ---
 
-## Greeting
+## Greetings
 
 I'm a PhD student in [biometical optical laboratory at KAIST](https://bmokaist.wordpress.com/). I am working in the middle of biologists, physicists and computer scientists. My current interests are follows:
 
