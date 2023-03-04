@@ -2,30 +2,17 @@
 <html lang="en">
     <head>
     <meta charset="UTF-8">
-    <style>
-    a:link {
-        color: white;
-        text-decoration: none;
-    }
-
-    a:visited {
-        color: rgb(135, 183, 251);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: white;
-        text-decoration: none;
-    }
-
-    a:active {
-        color: rgb(135, 183, 251);
-        text-decoration: none;
-    }
-    </style>
+    <link rel="stylesheet" href="/styles/home.css">
     <title> {{ site.title }} </title>
     </head>
-    <body style="background-color:black;color:white;" >
-        {{content | safe}}
+    <body>
+        <header id="base-header">
+            <a href="https://github.com/ehgus">github</a>
+            ✦
+            <a href="https://scholar.google.com/citations?user=5OUiLvcAAAAJ&hl">google scholar</a>
+        </header>
+        <main id="base-main" >
+            {{content | safe}}
+        </main>
     </body>
 </html>
