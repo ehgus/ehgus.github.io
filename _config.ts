@@ -1,5 +1,5 @@
 import lume from "lume/mod.ts";
-import lightningCss from "lume/plugins/lightningcss.ts";
+import sass from "lume/plugins/sass.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 
 const site = lume({
@@ -7,7 +7,7 @@ const site = lume({
 });
 
 site 
-    .use(lightningCss())
+    .use(sass())
     .use(minifyHTML());
 
 export default site;
