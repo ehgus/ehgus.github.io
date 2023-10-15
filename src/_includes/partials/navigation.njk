@@ -1,16 +1,19 @@
-<nav class="menu">
-    <ul class="menu-link-out">
-        {%for key,value in navigation_out %}
-        <li class="menuItem">
-            <a class="menuItem" href="{{ site.baseurl }}{{ value }}">{{ key }}</a> 
-        </li>
-        {% endfor %}
-    </ul>
-    <ul class="menu-link-in">
+<div class="top-menu">
+    <menu class="blog-links">
         {%for key,value in navigation_in %}
         <li class="menuItem">
             <a class="menuItem" href="{{ site.baseurl }}{{ value }}">{{ key }}</a> 
         </li>
         {% endfor %}
-    </ul>
-</nav>
+    </menu>
+    <menu class="social-media-link">
+        {%for key,value in navigation_out %}
+        <li class="menuItem">
+            <a class="menuItem" href="{{ value.url }}" title="{{ key }}">
+                <img class="menuItem" src="{{ value.logo }}">
+                <span>{{ key }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </menu>
+</div>

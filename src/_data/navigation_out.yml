@@ -1,2 +1,6 @@
-github: https://github.com/ehgus
-google scholar: https://scholar.google.com/citations?user=5OUiLvcAAAAJ&hl
+GitHub: 
+  url: https://github.com/ehgus
+  logo: images/github-mark.svg
+Google Scholar: 
+  url: https://scholar.google.com/citations?user=5OUiLvcAAAAJ&hl
+  logo: images/Google_Scholar_logo.svg

@@ -3,11 +3,13 @@ import sass from "lume/plugins/sass.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
 
 const site = lume({
-    src: "./src",
+    src: "src",
 });
 
 site 
     .use(sass())
     .use(minifyHTML());
+
+site.copy("images")
 
 export default site;
