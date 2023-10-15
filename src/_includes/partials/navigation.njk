@@ -1,0 +1,16 @@
+<nav class="menu">
+    <ul class="menu-link-out">
+        {%for key,value in navigation_out %}
+        <li class="menuItem">
+            <a class="menuItem" href="{{ site.baseurl }}{{ value }}">{{ key }}</a> 
+        </li>
+        {% endfor %}
+    </ul>
+    <ul class="menu-link-in">
+        {%for key,value in navigation_in %}
+        <li class="menuItem">
+            <a class="menuItem" href="{{ site.baseurl }}{{ value }}">{{ key }}</a> 
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

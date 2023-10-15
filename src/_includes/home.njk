@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles/home.css">
-    <title> {{ site.title }} </title>
-    </head>
+    {% include 'partials/head.njk'%}
     <body>
-        <header id="base-header">
-            <a href="https://github.com/ehgus">github</a>
-            ✦
-            <a href="https://scholar.google.com/citations?user=5OUiLvcAAAAJ&hl">google scholar</a>
-        </header>
+        {% include 'partials/navigation.njk'%}
         <main id="base-main" >
+            {% include 'partials/profile.njk' %}
             {{content | safe}}
         </main>
     </body>
