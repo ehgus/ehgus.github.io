@@ -9,24 +9,22 @@
 	<key>comment</key>
 	<string>http:&#x2f;&#x2f;chriskempson.com</string>
 	<key>name</key>
-	<string>Tomorrow Night</string>
+	<string>Tomorrow</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#292524</string>
 				<key>caret</key>
 				<string>#AEAFAD</string>
 				<key>foreground</key>
-				<string>#C5C8C6</string>
+				<string>#4D4D4C</string>
 				<key>invisibles</key>
-				<string>#4B4E55</string>
+				<string>#D1D1D1</string>
 				<key>lineHighlight</key>
-				<string>#282A2E</string>
+				<string>#EFEFEF</string>
 				<key>selection</key>
-				<string>#373B41</string>
+				<string>#D6D6D6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -50,7 +48,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED1CF</string>
+				<string>#666969</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +77,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class, Support</string>
+			<string>Type, Class, Support</string>
 			<key>scope</key>
 			<string>type,
 entity.name.class, entity.name.type.class, support.type, support.class</string>
@@ -88,7 +86,7 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6A8F8A</string>
+				<string>#568A8F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,7 +110,7 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6A8F8A</string>
+				<string>#568A8F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -125,20 +123,20 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#81A2BE</string>
+				<string>#4271AE</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword, Storage</string>
 			<key>scope</key>
-			<string>keyword, storage, storage.type, entity.name.tag.css</string>
+			<string>keyword, storage, storage.type</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B294BB</string>
+				<string>#8959A8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -153,7 +151,7 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED2CF</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,9 +162,9 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#82A3BF</string>
+				<string>#4271AE</string>
 				<key>foreground</key>
-				<string>#CED2CF</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -177,20 +175,9 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#B798BF</string>
+				<string>#8959A8</string>
 				<key>fontStyle</key>
 				<string></string>
-				<key>foreground</key>
-				<string>#CED2CF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Diff foreground</string>
-			<key>scope</key>
-			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
-			<key>settings</key>
-			<dict>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 			</dict>
@@ -203,9 +190,7 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5FE375</string>
-				<key>background</key>
-				<string>#00000000</string>
+				<string>#229545</string>
 			</dict>
 		</dict>
 		<dict>
@@ -216,7 +201,7 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D46565</string>
+				<string>#C8282966</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,8 +212,6 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
-				<key>background</key>
 				<string>#4271ae</string>
 			</dict>
 		</dict>
@@ -245,45 +228,12 @@ entity.name.class, entity.name.type.class, support.type, support.class</string>
 				<string>#3e999f</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.deleted</string>
-			<key>scope</key>
-			<string>markup.deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.inserted</string>
-			<key>scope</key>
-			<string>markup.inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>diff.changed</string>
-			<key>scope</key>
-			<string>markup.changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
-	<string>F96223EB-1A60-4617-92F3-D24D4F13DB09</string>
+	<string>82CCD69C-F1B1-4529-B39E-780F91F07604</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.tomorrow_night</string>
+	<string>theme.light.tomorrow</string>
 </dict>
 </plist>

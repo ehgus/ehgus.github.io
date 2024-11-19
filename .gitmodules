@@ -1,3 +1,4 @@
-[submodule "themes/tranquil"]
-	path = themes/tranquil
-	url = https://github.com/ehgus/tranquil.git
+[submodule "themes/serene"]
+	path = themes/serene
+	url = https://github.com/isunjn/serene.git
+	branch = latest
