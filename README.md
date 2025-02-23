@@ -9,7 +9,7 @@ To test it, run
 
 ```bash
 git submodule init
-git submodule
+git submodule update
 # note zola should be installed before
 # see https://www.getzola.org/documentation/getting-started/installation/
 zola serve
