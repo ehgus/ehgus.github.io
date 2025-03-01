@@ -1,0 +1,7 @@
+[[project]]
+    name = "This Website"
+    desc = "The very website you are looking at is available on Github!"
+    tags = ["webdev"]
+    links = [
+        { name = "Github", url = "https://github.com/ehgus/ehgus.github.io" }
+    ]
